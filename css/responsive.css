@@ -1,0 +1,355 @@
+/* **************************
+below 1350px (smaller desktop)
+*********************** */
+@media(max-width:900px) {
+   html {
+      font-size: 55.5%;
+   }
+
+   span {
+      display: block;
+   }
+
+   .container {
+      padding: 0 4rem;
+   }
+
+   .main-nav-list {
+      display: none;
+   }
+
+   .hero {
+      grid-template-columns: 1fr;
+   }
+
+   .hero-section {
+      padding: 0 0 0 4rem
+   }
+
+   .photo-hero {
+      text-align: right;
+   }
+
+   .img-hero {
+      width: 70%
+   }
+
+
+   .big-table {
+      grid-template-columns: 1fr 1fr
+   }
+
+   .section-markting .container {
+      max-height: unset;
+   }
+
+   .photo-markt {
+      display: none;
+   }
+
+   .markting {
+      grid-template-columns: 1fr;
+   }
+
+   .need {
+      flex-direction: column;
+   }
+
+   .section-when-need {
+      padding: 9rem 0 3rem 0;
+   }
+
+   .bord-icon-l {
+      top: -28%;
+      left: -24%;
+   }
+
+
+   .photo-need {
+      max-width: 85%;
+   }
+
+   .table-need {
+      padding-top: 0;
+   }
+
+   .need {
+      padding-left: 0;
+      align-items: center;
+   }
+
+   .table-need {
+      align-items: center;
+   }
+
+   .market,
+   .markt-head,
+   .markt-text {
+      text-align: center;
+   }
+
+   .markt-head,
+   .markt-text {
+      padding: 0;
+      margin-bottom: 10px;
+   }
+
+   .installtion {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+   }
+
+   .vido-install {
+      flex-direction: column;
+   }
+
+   .vidd {
+      right: 48%;
+      margin-top: 14%;
+   }
+
+   .vidoe {
+      width: 100%;
+   }
+
+   .vido-head {
+      padding-left: 0;
+   }
+
+   .man-vid {
+      width: 90%;
+      margin: 0 3rem 0 3rem;
+   }
+
+   .text-p {
+      margin-left: 0;
+   }
+
+   .section-download {
+      padding: 5rem 0rem 12rem 0rem;
+   }
+
+   .learn-icon {
+      display: none;
+   }
+
+   .section-download .market {
+      text-align: start;
+   }
+
+   .option {
+      width: 100%;
+   }
+
+   .plat-forms {
+      padding: 9rem;
+   }
+
+
+   .plat-form:nth-child(n+7) {
+      margin-right: 0rem;
+   }
+
+   .div-footer {
+      grid-template-columns: 2fr 1fr;
+   }
+
+   .touch {
+      margin-left: 0rem;
+   }
+
+   .review {
+      flex-direction: column;
+      gap: 3rem;
+      align-items: center;
+      padding: 5rem 1.5rem 3rem 1.5rem;
+      height: auto;
+   }
+
+}
+
+@media(max-width:700px) {
+   html {
+      font-size: 45.5%;
+   }
+
+
+   .hero-section {
+      padding: 10px
+   }
+
+   .big-table {
+      grid-template-columns: 1fr
+   }
+
+   .table {
+      text-align: center;
+   }
+
+   .table-icon,
+   .link-table {
+      margin: 0 auto;
+   }
+
+   .descripe-bttn {
+      flex-direction: column;
+      gap: 1.5rem;
+   }
+
+   .btn-how-work {
+      width: 30%;
+   }
+
+   .advantage {
+      flex-direction: column;
+   }
+
+   .installtion {
+      flex-direction: column;
+      gap: 3rem;
+   }
+
+   .options {
+      flex-direction: column;
+      width: 95%;
+      margin: 0 auto;
+   }
+
+
+   .plat-forms {
+      padding: 2rem 2rem 4rem 2rem;
+      gap: 3.5rem
+   }
+
+   .learn-icons {
+      display: none;
+   }
+
+   .name-rev {
+      text-align: center;
+   }
+
+   .p-icons {
+      justify-content: center;
+   }
+
+   .div-footer {
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+   }
+
+   .footer-head,
+   .p-comp {
+      text-align: center;
+   }
+
+   .appie {
+      align-items: center;
+      padding-right: 0;
+   }
+
+   .tou-supp {
+      justify-content: center;
+   }
+
+   .end {
+      flex-direction: column;
+      gap: 3rem;
+      align-items: center;
+   }
+}
+
+
+
+
+
+
+/* 
+@media(max-width:84em) {
+
+
+   .section-when-need {
+      padding: 7rem 2rem 6rem 2rem;
+   }
+
+   .section-download {
+      padding: 5rem 60rem 12rem 8.2rem;
+   }
+
+   .need {
+      padding: 5rem 0 0 6rem;
+   }
+
+   .photo-need {
+      width: 45rem;
+   }
+}
+
+
+@media(max-width:78.7em) {
+   .section-how-work {
+      margin: 8.7rem 3.6rem 9rem 3.6rem;
+   }
+
+   .section-markting {
+      margin: 8.7rem 5rem 9rem 5rem;
+   }
+
+   .section-markting .container {
+      max-width: 108.5rem;
+   }
+
+   .markt-head {
+      padding: 0 7rem 1.5rem 0;
+   }
+
+   .vidoe {
+      width: 70rem;
+      margin-left: 3rem;
+   }
+
+   .man-vid {
+      max-width: 35rem;
+   }
+}
+
+@media(max-width:73em) {
+   .html {
+      font-size: 50%;
+   }
+
+  
+
+
+   .btn-nav {
+      margin-left: 0;
+   }
+
+  
+
+   .vidoe {
+      width: 57rem;
+   }
+
+   .man-vid {
+      width: 39rem;
+      padding-right: 3rem;
+   }
+
+   .photo-markt {
+      width: 51rem;
+   }
+
+   .markt-head {
+      padding: 0 3rem 1.5rem 0;
+   }
+
+   .markt-text {
+      padding-right: 5rem;
+   }
+
+   .table {
+      padding: 2rem;
+   }
+} */
